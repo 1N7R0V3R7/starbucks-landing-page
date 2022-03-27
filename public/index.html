@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="" id="body">
+    <nav class="p-4 flex justify-between items-center md:mx-auto md:justify-start md:border-b-2 border-slate-100 md:px-60">
+        <div class="md:mr-8">
+            <img src="./img/logo.svg" alt="" class="w-12 h-12">
+        </div>
+        <button class="md:hidden" id="nav-btn">
+            <div class="bg-black my-1.5 w-6 h-[3px] rounded-full duration-500 ease-in-out"></div>
+            <div class="bg-black my-1.5 w-6 h-[3px] rounded-full duration-500 ease-in-out"></div>
+            <div class="bg-black my-1.5 w-6 h-[3px] rounded-full duration-500 ease-in-out"></div>
+        </button>
+        <div class="md:flex justify-between items-center grow hidden">
+            <ul class="flex justify-evenly gap-8">
+                <li class="text-xl">Menu</li>
+                <li class="text-xl">Rewards</li>
+                <li class="text-xl">Gift Cards</li>
+            </ul>
+            <div class="flex justify-evenly gap-4 items-center">
+                <button class="border-black border-2 px-6 py-2 rounded-full text-sm">
+                    Sign In
+                </button>
+                <button class="bg-black text-white px-6 py-2 rounded-full text-sm">
+                    Join Now
+                </button>
+                <div class="flex items-center my-auto">
+                    <img src="./img/marker.svg" class="h-6 w-6" alt="">
+                    <span class="text-lg">
+                        Find a store
+                    </span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="sidemenu" class="md:hidden px-8 z-1 fixed bg-fixed top-[4.5rem] overflow-x-hidden bottom-0 right-0 duration-500 bg-white opacity-0" style="width: 0;">
+        <ul class="">
+            <li class="my-8 text-xl">Menu</li>
+            <li class="my-8 text-xl">Rewards</li>
+            <li class="my-8 text-xl">Gift Cards</li>
+        </ul>
+        <div class="w-100 mx-auto h-[3px] rounded-full bg-slate-200 my-6"></div>
+        <div class="">
+            <button class="border-black border-2 px-6 py-2 rounded-full text-sm">
+                Sign In
+            </button>
+            <button class="bg-black text-white px-6 py-2 rounded-full text-sm">
+                Join Now
+            </button>
+        </div>
+        <div class="flex items-center mt-8">
+            <img src="./img/marker.svg" class="h-6 w-6" alt="">
+            <span class="text-lg">
+                Find a store
+            </span>
+        </div>
+    </div>
+    <section id="banner1" class=" md:max-w-[1440px] md:mx-auto">
+        <div class="bg-[#006941] text-white text-center px-4 py-6">
+            <h1 class="heading mt-4 md:px-32">
+                JINGLE ALL THE WAY TO FREE FAVORITES
+            </h1>   
+            <div class="description">
+                Join Starbucks® Rewards for delicious deals  & exclusive offers.
+                <a href="" class="underline">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section id="banner2" class=" md:max-w-[1440px] md:mx-auto my-6">
+        <div class="bg-[#de0026] text-white text-center pb-6 grid md:grid-cols-2">
+            <img src="./img/box-b.png" alt="">
+            <div class="my-auto">
+                <h1 class="heading">
+                    new to the nice list
+                </h1>
+                <div class="description">
+                    For a nondairy twist on a holiday cookie classic, try the new Iced Sugar Cookie Almond Milk Latte.
+                </div>
+                <button class="order-btn">Order now</button>
+            </div>
+        </div>
+    </section>
+    <section id="banner3" class=" md:max-w-[1440px] md:mx-auto my-6">
+        <div class="bg-[#de0026] text-white text-center pb-6 grid md:grid-cols-2">
+            <img src="./img/box-c.png" class="md:order-last" alt="">
+            <div class="my-auto">
+                <h1 class="heading">
+                    Merry Moment
+                </h1>
+                <div class="description">
+                    Treat yourself to a festive Sugar Plum Cheese Danish with a nicely spiced sugar-plum spread.
+                </div>
+                <button class="order-btn">Order now</button>
+            </div>
+        </div>
+    </section>
+    <section id="banner4" class="my-6 md:max-w-[1440px] md:mx-auto">
+        <div class="bg-[#006941] text-white text-center pb-6 grid md:grid-cols-2">
+            <img src="./img/box-d.png" alt="" class="">
+            <div class="md:my-auto">
+                <h1 class="heading">
+                    Starbucks Thanksgiving Blend
+                </h1>
+                <div class="description">
+                    This elegant dark roast returns, showcasing flavors from some of the world's major coffee-growing regions.
+                </div>
+                <button class="order-btn">Order now</button>
+            </div>
+        </div>
+    </section>
+    <section id="banner5" class="my-6 md:max-w-[1440px] md:mx-auto">
+        <div class="bg-[#de0026] text-white text-center pb-6 grid md:grid-cols-2 md:py-6">
+            <img src="./img/box-e.jpg" alt="md:order-last">
+            <div class="md:my-auto">
+                <h1 class="text-xl md:text-3xl font-bold">
+                    Fighting hunger this holiday
+                </h1>
+                <div class="description">
+                    Hunger is affecting millions of people across America this holiday season. Join us in our commitment to hunger relief and help feed neighbors in need.
+                </div>
+                <button class="order-btn">Order now</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="grid md:grid-cols-2 md:auto-cols-max md:auto-rows-max my-6 md:max-w-[1440px] md:mx-auto">
+        <div id="banner6" class="">
+            <div class="bg-[#d1ebe2] text-center pb-16">
+                <img src="./img/box-f1.jpg" alt="" class="">
+                <h1 class="text-xl font-bold mt-16 px-4">
+                    Let the holiday cheer come to you
+                </h1>
+                <div class="description">
+                    Make the moment merry. Order Starbucks® holiday favorites on Uber Eats.*
+                </div>
+                <button class="order-btn border-black">Order now</button>
+            </div>
+        </div>
+        <div id="banner7" class="">
+            <div class="bg-[#006941] text-white text-center pb-16">
+                <img src="./img/box-f2.jpg" alt="">
+                <h1 class="text-xl font-bold mt-16 px-4">
+                    Love Passing on Netflix
+                </h1>
+                <div class="description">
+                    Our new social series about film adaptations kicks off with the actors and directors who brought the book to life.
+                </div>
+                <button class="order-btn">Order now</button>
+            </div>
+        </div>
+    </div>
+    <footer class="pb-12 px-6 mt-6 md:max-w-[1440px] md:mx-auto">
+        <div class="h-[3px] rounded-full bg-slate-200 my-8"></div>
+        <div class="flex justify-evenly md:justify-start items-center">
+            <div class="md:pr-4">
+                <img src="./img/social-spotify.svg" alt="Spotify Logo" class="w-8 h-8">
+            </div>
+            <div class="md:pr-4">
+                <img src="./img/social-facebook.svg" alt="Facebook Logo" class="w-8 h-8">
+            </div>
+            <div class="md:pr-4">
+                <img src="./img/social-pinterest.svg" alt="Pinterest Logo" class="w-8 h-8">
+            </div>
+            <div class="md:pr-4">
+                <img src="./img/social-instagram.svg" alt="Instagram Logo" class="w-8 h-8">
+            </div>
+            <div class="md:pr-4">
+                <img src="./img/social-youtube.svg" alt="YouTube Logo" class="w-8 h-8">
+            </div>
+            <div class="md:pr-4">
+                <img src="./img/social-twitter.svg" alt="Twitter Logo" class="w-8 h-8">
+            </div>
+        </div>
+        <div class="text-center md:text-left text-lg mt-6">
+            © 2021 Starbucks Coffee Company. All rights reserved.
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

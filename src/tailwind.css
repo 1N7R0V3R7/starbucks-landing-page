@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .heading {
+        @apply uppercase text-4xl md:text-5xl font-medium tracking-widest mt-8 px-4;
+    }
+    .description {
+        @apply text-lg md:text-2xl my-8 px-4;
+    }
+    .order-btn {
+        @apply capitalize rounded-full border-2 border-white px-4 py-2
+    }
+}
